@@ -1,63 +1,132 @@
-# Apna-college-DSA-sheet
-This repository contains Java solutions for the Apna College DSA Sheet, covering important data structures and algorithms for interview preparation.
+# 🚀 DSA Journey – Daily Consistency Tracker
 
+## 📌 Goal
 
-# Apna College DSA Sheet – Java Solutions 🚀
+This repository is dedicated to mastering **Data Structures & Algorithms (DSA)** with daily consistency.
 
-This repository documents my **Data Structures & Algorithms (DSA) learning journey in Java**,
-following the **Apna College DSA Sheet**.
+👉 Focus:
 
-For **every topic**, I maintain **two separate folders**:
-- One for **personal practice while learning the topic**
-- One for **DSA Sheet questions related to that topic**
+* Problem Solving
+* Logic Building
+* Interview Preparation
 
-This separation helps in keeping **concept learning** and **problem-solving** well organized and easy to revise.
+---
+
+## 🧠 Why This Repo?
+
+* To build strong problem-solving skills
+* To stay consistent every single day
+* To track progress over time
+* To prepare for coding interviews (NQT / Product-based companies)
+
+---
+
+## 📅 Daily Rule
+
+✔ Solve at least **1–3 problems daily**
+✔ Understand logic (not just code)
+✔ Revise previous questions
+✔ Maintain notes
+
+---
+
+## 📂 Structure
+
+```
+DSA/
+│
+├── Arrays/
+├── Strings/
+├── LinkedList/
+├── Stack/
+├── Queue/
+├── Recursion/
+├── Trees/
+├── Graphs/
+├── DynamicProgramming/
+└── Misc/
+```
+
+---
+
+## 📝 Problem Format (Follow for Every Question)
+
+```
+Problem Name:
+Platform: (LeetCode / GFG / etc.)
+
+Approach:
+- Brute Force
+- Better
+- Optimal
+
+Time Complexity:
+Space Complexity:
+
+Notes:
+```
+
+---
+
+## 🔥 Topics Covered
+
+* ✅ Arrays
+* ✅ Strings
+* ⏳ Linked List
+* ⏳ Stack & Queue
+* ⏳ Recursion & Backtracking
+* ⏳ Trees
+* ⏳ Graphs
+* ⏳ Dynamic Programming
+
+---
+
+## 📊 Progress Tracker
+
+| Day   | Topic     | Problems Solved |
+| ----- | --------- | --------------- |
+| Day 1 | Arrays    | 2               |
+| Day 2 | Strings   | 3               |
+| Day 3 | Recursion | 1               |
+
+---
+
+## ⚡ Rules I Follow
+
+* ❌ No skipping days
+* ❌ No copy-paste coding
+* ✔ First think → then code
+* ✔ Write dry run
+* ✔ Optimize solution
+
+---
+
+## 🎯 Target
+
+* Crack coding rounds (NQT / Product Companies)
+* Become strong in problem solving
+* Build consistency & discipline
+
+---
+
+## 💡 Motivation
+
+> "Consistency beats talent when talent doesn’t work hard."
+
+---
+
+## 🛠 Tech Used
+
+* Language: Java
+* Platform: LeetCode, GFG
 
 ---
 
 
-### 🔹 TopicPractice Folders
-Example: `ArrayPractice/`, `StackPractice/`
 
-- Used for **learning and practicing core concepts**
-- Includes:
-  - Basic operations
-  - Logic building
-  - Implementations
-- Code written while **studying the topic**
+
 
 ---
 
-### 🔹 TopicSheetQuestions Folders
-Example: `ArraySheetQuestions/`, `StackSheetQuestions/`
-
-- Contains **topic-wise questions**
-- All problems are taken from the **Apna College DSA Sheet**
-- Focused on:
-  - Problem-solving skills
-  - Interview preparation
-
----
-
-## 🛠 Language Used
-- **Java**
-- Clean, readable, and beginner-friendly code
-
----
-
-## 🎯 Purpose of This Repository
-- Build strong **DSA fundamentals**
-- Maintain a **structured learning approach**
-- Prepare effectively for **coding interviews**
-- Track progress while solving the Apna College DSA Sheet
-
----
-
-## 📈 Progress
-Topics and questions are added **gradually** as I move forward with the DSA Sheet.
-
----
-
-⭐ If you find this repository helpful, feel free to star it!
-
-
+🔥 *Started on: [22-03-2026]*
+🔥 *Never Stop Learning*

@@ -1,0 +1,9 @@
+*.class
+*.log
+*.jar
+.idea/
+.vscode/
+target/
+build/
+.DS_Store
+Thumbs.db
