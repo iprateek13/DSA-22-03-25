@@ -56,17 +56,42 @@ public class Print4 {
     private static void pattern8(int n) {
         char a = 'A';
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j <=i; j++) {
-                System.out.print(a+" ");
+            for (int j = 0; j <= i; j++) {
+                System.out.print(a + " ");
             }
             System.out.println();
             a++;
         }
     }
 
+    private static void pattern9(int n) {
+        for (int i = 0; i < n; i++) {
+            // spaces
+            for (int j = 0; j < (n - i - 1); j++) {
+                System.out.print("_");
+            }
+            char a = 'A';
+            for (int j = 0; j <= i; j++) {
+                System.out.print(a);
+                a++;
+            }
+            // a=(char)(a-2);
+            if (i == 0) {
+                System.out.print("_");
+            } else {
+                char ch = (char) ('A' + (i - 1));
+                for (int j = 0; j < i; j++) {
+                    System.out.print(ch);
+                    ch--;
+                }
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        pattern8(n);
+        pattern9(n);
     }
 }
