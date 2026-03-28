@@ -89,9 +89,33 @@ public class Print4 {
         }
     }
 
+    private static void pattern10(int n) {
+        for (int i = 0; i < n; i++) {
+            int num = 1 + (i - 1 + 1);
+
+            for (int j = 0; j <= i; j++) {
+                System.out.print(num);
+
+                num--;
+            }
+            System.out.println();
+        }
+    }
+
+    private static void pattern11(int n) {
+        for (int i = 0; i < n; i++) {
+            char ch = (char) ('A' + (i - 1 + 1));
+            for (int j = 0; j <= i; j++) {
+                System.out.print(ch);
+                ch--;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        pattern9(n);
+        pattern11(n);
     }
 }

@@ -1,4 +1,7 @@
+import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.*;
 
 public class Print5 {
     public static void pattern12(int n) {
@@ -88,9 +91,44 @@ public class Print5 {
         }
     }
 
+    public static void factor(int n) {
+        if (n <= 0) {
+            System.out.println("Enter a positive number");
+            return;
+        }
+        for (int i = 1; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+    public static void factor2(int n) {
+        LinkedList<Integer> ls = new LinkedList<>();
+        for (int i = 1; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                // System.out.print(i + " ");
+                ls.add(i);
+                // System.out.print((n / i) + " ");
+
+                if (i != n / i) {
+                    // System.out.print((n / i) + " ");
+                    ls.add(n / i);
+                }
+            }
+        }
+        // ls.sort(Comparator.reverseOrder());
+        ls.sort(null);
+        for (var object : ls) {
+            System.out.print(object + " ");
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        pattern14(n);
+        // pattern14(n);
+        factor2(n);
+        sc.close();
     }
 }
