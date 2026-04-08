@@ -15,14 +15,15 @@ public class Recursion {
             return;
         }
         print1toNBack(i - 1, n);
-        System.out.print(i+" ");
+        System.out.print(i + " ");
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
         // print1toN(1, n);
         print1toNBack(4, 4);
+        sc.close();
 
     }
 }

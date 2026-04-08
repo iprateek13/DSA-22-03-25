@@ -22,6 +22,6 @@ public class RecurBasic {
         int n = sc.nextInt();
         // printnto1(n);
         printnto1ByBackTrack(1, n);
-
+        sc.close();
     }
 }

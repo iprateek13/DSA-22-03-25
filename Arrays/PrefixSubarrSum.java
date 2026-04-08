@@ -1,6 +1,6 @@
 public class PrefixSubarrSum {
 
-    public static void PrefixSubarrSum(int arr[]) {
+    public static void prefixSubarrSum(int arr[]) {
         int SubArraySum = 0;
         int n = arr.length;
         int maxSum = Integer.MIN_VALUE;
@@ -33,6 +33,6 @@ public class PrefixSubarrSum {
 
     public static void main(String[] args) {
         int num[] = { 1, -2, 6, -1, 3 };
-        PrefixSubarrSum(num);
+        prefixSubarrSum(num);
     }
 }

@@ -29,10 +29,10 @@ public class BinarySearch {
             System.out.println("Sorry, the key is not found");
         } else {
             System.out.println("The index of the key is : " + index);
-            System.out.println("& The number at the index is : "+number[index]);
+            System.out.println("& The number at the index is : " + number[index]);
 
         }
-
+        sc.close();
     }
 
 }

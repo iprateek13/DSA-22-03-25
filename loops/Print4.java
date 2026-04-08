@@ -117,5 +117,6 @@ public class Print4 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         pattern11(n);
+        sc.close();
     }
 }

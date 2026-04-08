@@ -1,5 +1,5 @@
 public class Subarray {
-    public static void Subarray(int arr[]) {
+    public static void subarray(int arr[]) {
         int n = arr.length;
         int tp = 0;
         int maxSum = Integer.MIN_VALUE;
@@ -33,6 +33,6 @@ public class Subarray {
 
     public static void main(String[] args) {
         int num[] = { 1, -2, 6, -1, 3 };
-        Subarray(num);
+        subarray(num);
     }
 }

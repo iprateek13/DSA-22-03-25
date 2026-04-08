@@ -49,6 +49,7 @@ public class Print1 {
         int n = sc.nextInt();
         pattern1(n);
         print2(n);
+        sc.close();
         // }
     }
 }

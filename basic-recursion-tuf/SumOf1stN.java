@@ -13,5 +13,6 @@ public class SumOf1stN {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sumOf1stN(0, n);
+        sc.close();
     }
 }

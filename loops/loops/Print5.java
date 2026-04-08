@@ -1,7 +1,10 @@
-import java.util.Comparator;
+package loops;
+
+// import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Scanner;
-import java.util.*;
+// import java.util.*;
+
 
 public class Print5 {
     public static void pattern12(int n) {

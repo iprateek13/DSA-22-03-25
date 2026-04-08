@@ -1,6 +1,6 @@
 public class Kadanes {
 
-    public static void Kadanes(int num[]) {
+    public static void Kadanesalgo(int num[]) {
         int cs = 0;
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < num.length; i++) {
@@ -30,8 +30,8 @@ public class Kadanes {
 
     public static void main(String[] args) {
         int num[] = { 2, 3, 4, 5, 6, 7, -2, -2, };
-        int CruxNum[] = { -2, -3, -1, -4 };
-        Kadanes(num);
+        // int CruxNum[] = { -2, -3, -1, -4 };
+        Kadanesalgo(num);
         edgeCase(num);
     }
 }
