@@ -37,5 +37,6 @@ public class Monotonic {
         boolean result = isMonotonic(arr, n);
 
         System.out.println("Array is Monotonic: " + result);
+        sc.close();
     }
 }

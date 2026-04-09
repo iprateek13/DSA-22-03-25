@@ -16,6 +16,7 @@ public class FirstOccurence {
             // System.out.println("function continues......");
         }
         System.out.println(ans + " ");
+        sc.close();
     }
 
 }
