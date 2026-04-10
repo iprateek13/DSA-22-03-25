@@ -1,8 +1,9 @@
 public class CountingMineLogic {
 
     public static void unStableCounting(int[] arr, int n) {
-        //order of element is lost in this code 
-
+        // order of element is lost in this code
+        // VALUE based print karta hai
+        // POSITION ignore karta hai
         int[] freq = new int[4]; // values 0-3
 
         // Step 1: Frequency count
