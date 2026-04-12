@@ -30,7 +30,7 @@ public class CountofTArget {
 
     // BETTER APPROACH (Binary Search per row)
     // Condition: Har row sorted honi chahiye
-    public static int count7Opt(int[][] arr, int target) {
+    public static int count7better(int[][] arr, int target) {
 
         int count = 0;
 
@@ -169,7 +169,7 @@ public class CountofTArget {
         int target = sc.nextInt();
 
         // int count = count7(arr, target); // brute
-        int count = count7Opt(arr, target); // better
+        int count = count7better(arr, target); // better
         // int count = countTarget(arr, target); // optimal
 
         System.out.println("Count is : " + count);
