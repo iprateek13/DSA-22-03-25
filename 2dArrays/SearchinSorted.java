@@ -66,6 +66,7 @@ public class SearchinSorted {
 
         return new int[] { -1, -1 };
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
