@@ -1,5 +1,7 @@
 // package 2dArrays;
 
+import java.util.Scanner;
+
 public class Tranposematrix {
 
     public static int[][] transpose(int[][] arr) {
@@ -18,7 +20,11 @@ public class Tranposematrix {
     }
 
     public static void main(String[] args) {
-        int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 } };
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        int[][] arr = new int[m][n];
 
         int[][] res = transpose(arr);
 
@@ -29,5 +35,6 @@ public class Tranposematrix {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
