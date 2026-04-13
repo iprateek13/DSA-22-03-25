@@ -13,7 +13,7 @@ public class SringComparison {
         System.out.println(s1 == s2); // true (same pool memory)
         System.out.println(s1 == s3); // false (pool vs heap)
 
-        // equals() → content comparison
+        // equals() → content comparison,return boolean value 
         System.out.println(s1.equals(s3)); // true (same value "Tony")
 
         // intern() → heap string ko pool me le aata hai
