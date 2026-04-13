@@ -13,10 +13,10 @@ public class CompressedString {
                 i++; // same group me aage badh
             }
 
-            sb.append(str.charAt(i)); // char add
+            sb.append(str.charAt(i)); // char add // char to hamesha add hoga
 
             if (count > 1) {
-                sb.append(count); // count add
+                sb.append(count); // count add // sirf jab repeat ho
             }
         }
 
