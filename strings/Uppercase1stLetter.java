@@ -26,6 +26,8 @@ public class Uppercase1stLetter {
         }
 
         return sb.toString(); // final string return
+        //Total TC : O(n) ✔✔
+        // SC : O(n) (result ke liye only)
     }
 
     public static void main(String[] args) {
