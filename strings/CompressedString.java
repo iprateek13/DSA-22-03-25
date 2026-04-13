@@ -12,7 +12,12 @@ public class CompressedString {
                 count++;
                 i++; // same group me aage badh
             }
-
+            // if (count > 1) {
+            // sb.append(str.charAt(i)); // char add
+            // sb.append(count); // count add
+            // } else {
+            // sb.append(str.charAt(i)); // sirf char
+            // }
             sb.append(str.charAt(i)); // char add // char to hamesha add hoga
 
             if (count > 1) {
