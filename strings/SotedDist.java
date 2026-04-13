@@ -5,18 +5,14 @@ public class SotedDist {
         int x = 0, y = 0;
         for (int i = 0; i < path.length(); i++) {
             char dir = path.charAt(i);
-            if (dir == 'N') {
-                y++;
-            }
-            if (dir == 'S') {
-                y--;
-            }
-            if (dir == 'E') {
+            if (dir == 'E')
                 x++;
-            }
-            if (dir == 'w') {
+            else if (dir == 'W')
                 x--;
-            }
+            else if (dir == 'N')
+                y++;
+            else
+                y--;
         }
         int X2 = x * x;
         int Y2 = y * y;
