@@ -11,6 +11,11 @@ public class CompressedString {
             while (i < str.length() - 1 && str.charAt(i) == str.charAt(i + 1)) {
                 count++;
                 i++; // same group me aage badh
+                     // IMPORTANT:
+                // i yaha increment ho raha hai
+                // matlab same characters ko for loop dobara visit nahi karega
+                // Example: aaabb → i 0→1→2 direct , jb i+1 se i match nhi krega to i next for
+                // looop me usi i se badhega , jo i ki value present me rhegi
             }
             // if (count > 1) {
             // sb.append(str.charAt(i)); // char add
@@ -26,6 +31,10 @@ public class CompressedString {
         }
 
         return sb.toString();
+        // TC=O(N)
+        // sc = O(1)
+        // worst case me (all unique chars) size n ho sakta hai
+        // hence SC = O(n) NAHI TO BEST CASE ME O(1)
     }
 
     public static void main(String[] args) {
