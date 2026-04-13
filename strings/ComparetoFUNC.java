@@ -1,6 +1,7 @@
 package strings;
 
 public class ComparetoFUNC {
+
     public static void main(String[] args) {
 
         String[] str = { "heeloo", "jinamste", "heellooooo" };
@@ -15,7 +16,20 @@ public class ComparetoFUNC {
                 largestSTR = str[i];
             }
         }
-
         System.out.println(largestSTR);
+
+        
+        // By using for-each method
+        // for (String value : str) {
+        // // pehle element skip karo manually
+        // if (value.equals(str[0]))
+        // continue;
+
+        // if (largestSTR.compareTo(value) < 0) {
+        // largestSTR = value;
+        // }
+        // }
+
     }
+
 }
