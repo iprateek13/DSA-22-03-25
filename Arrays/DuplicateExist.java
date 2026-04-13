@@ -45,6 +45,9 @@ public class DuplicateExist {
 
         // Step 5: If no duplicates found
         return false;
+
+        // Total TC= O(n)
+        // HashSet SC → O(n)
     }
 
     public static void main(String[] args) {
