@@ -25,7 +25,7 @@ public class Anagrams {
         // SC: O(n)
     }
 
-    public static boolean isAnagram(String s1, String s2) {
+    public static boolean isAnagramOPT(String s1, String s2) {
 
         // length check
         if (s1.length() != s2.length())
@@ -54,6 +54,7 @@ public class Anagrams {
     }
 
     public static void main(String[] args) {
-        System.out.println(isAnagramBrute("listen", "silent")); // true
+        System.out.println("Anagramity of strings is : " + isAnagramBrute("listen", "silent")); // true
+        System.out.println("Anagramity of strings is : " + isAnagramOPT("listen", "silent"));
     }
 }
