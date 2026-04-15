@@ -1,5 +1,5 @@
 
-[![Prateek's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=iprateek13&theme=react-dark)](https://github.com/iprateek13)
+[![DSA Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=iprateek13&theme=react-dark)](https://github.com/iprateek13)
 
 
 
