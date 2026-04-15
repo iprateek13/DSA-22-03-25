@@ -18,5 +18,6 @@ public class GetithBit {
         } else {
             System.out.println("ith bit is : 0");
         }
+        sc.close();
     }
 }

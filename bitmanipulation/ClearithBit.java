@@ -18,5 +18,6 @@ public class ClearithBit {
         } else {
             System.out.println("number at ith bit is already cleared means already ith bit is 0 ");
         }
+        sc.close();
     }
 }

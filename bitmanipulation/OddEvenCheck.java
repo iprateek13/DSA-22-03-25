@@ -16,5 +16,7 @@ public class OddEvenCheck {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         checkEvenOdd(n);
+        sc.close();
     }
+
 }

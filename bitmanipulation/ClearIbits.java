@@ -18,6 +18,6 @@ public static void main(String[] args) {
         } else {
             System.out.println("Last i Bits Now Cleared");
         }
-
+sc.close();
     }
 }
