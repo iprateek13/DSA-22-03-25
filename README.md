@@ -1,126 +1,72 @@
-# 🚀 DSA Journey – Daily Consistency Tracker
 
-## 📌 Goal
+# 🚀 DSA Daily Grind
 
-This repository is dedicated to mastering **Data Structures & Algorithms (DSA)** with daily consistency.
+[![Prateek's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark)](https://github.com/iprateek13)
 
-👉 Focus:
+## 🎯 Focus
 
-* Problem Solving
-* Logic Building
-* Interview Preparation
-
----
-
-## 🧠 Why This Repo?
-
-* To build strong problem-solving skills
-* To stay consistent every single day
-* To track progress over time
-* To prepare for coding interviews (NQT / Product-based companies)
+**Daily DSA Practice**
+- Java
+- Deep understanding
+- Logic building
+- Interview preparation
 
 ---
 
-## 📅 Daily Rule
+## 🔥 What I’m Doing
 
-✔ Solve at least **1–3 problems daily**
-✔ Understand logic (not just code)
-✔ Revise previous questions
-✔ Maintain notes
-
----
-
-## 📂 Structure
-
-```
-DSA/
-│
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Recursion/
-├── Trees/
-├── Graphs/
-├── DynamicProgramming/
-└── Misc/
-```
+✔ Solving problems **every single day**  
+✔ Writing logic before code  
+✔ Understanding deeply (not memorizing)  
+✔ Revising regularly  
 
 ---
 
-## 📝 Problem Format (Follow for Every Question)
+## 📊 Consistency > Everything
 
-```
-Problem Name:
-Platform: (LeetCode / GFG / etc.)
-
-Approach:
-- Brute Force
-- Better
-- Optimal
-
-Time Complexity:
-Space Complexity:
-
-Notes:
-```
+> No breaks. No excuses. Just daily progress.
 
 ---
 
-## 🔥 Topics Covered
+## 🧠 Approach
 
-* ✅ Arrays
-* ✅ Strings
-* ⏳ Linked List
-* ⏳ Stack & Queue
-* ⏳ Recursion & Backtracking
-* ⏳ Trees
-* ⏳ Graphs
-* ⏳ Dynamic Programming
+- Think → Dry Run → Code → Optimize  
+- Brute → Better → Optimal  
+- Learn from every problem  
 
 ---
 
-## 📊 Progress Tracker
+## ⚡ Rule
 
-| Day   | Topic     | Problems Solved |
-| ----- | --------- | --------------- |
-| Day 1 | Arrays    | 2               |
-| Day 2 | Strings   | 3               |
-| Day 3 | Recursion | 1               |
+❌ No skipping days  
+❌ No copy-paste  
+✔ Only real understanding  
 
 ---
 
-## ⚡ Rules I Follow
+## 🎯 Goal
 
-* ❌ No skipping days
-* ❌ No copy-paste coding
-* ✔ First think → then code
-* ✔ Write dry run
-* ✔ Optimize solution
+- Strong problem-solving mindset  
+- Crack coding interviews  
+- Master DSA step-by-step  
 
 ---
 
-## 🎯 Target
+## 💡 Journey
 
-* Crack coding rounds (NQT / Product Companies)
-* Become strong in problem solving
-* Build consistency & discipline
-
----
-
-## 💡 Motivation
-
-> "Consistency beats talent when talent doesn’t work hard."
+Started: **22-03-2026**  
+Status: **Ongoing...**
 
 ---
 
-## 🛠 Tech Used
+## 🚀 Next Phase
 
-* Language: Java
-* Platform: LeetCode, GFG
+After strong DSA foundation:
+➡ Shift to platforms like **LeetCode / InterviewBit / etc.**
 
 ---
+
+🔥 *Consistency is the only shortcut.*
 
 
 
