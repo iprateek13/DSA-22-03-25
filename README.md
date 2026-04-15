@@ -1,7 +1,7 @@
 
-# 🚀 DSA Daily Grind
 
-[![Prateek's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark)](https://github.com/iprateek13)
+
+[![Prateek's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark)]([https://github.com/iprateek13](https://github.com/iprateek13))
 
 ## 🎯 Focus
 
