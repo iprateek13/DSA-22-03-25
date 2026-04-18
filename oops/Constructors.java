@@ -1,8 +1,7 @@
 package oops;
 
-import bitmanipulation.setIthBit;
 
-public class Constrictors {
+public class Constructors {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.age = 12;
