@@ -1,12 +1,13 @@
 package oops;
 
 public class CopyConstructor {
+
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student1 s1 = new Student1();
         s1.marks[0] = 12;
         s1.marks[1] = 2;
         s1.marks[2] = 23;
-        Student s3 = new Student(s1);
+        Student1 s3 = new Student1(s1);
         s3.marks[2] = s1.marks[2] + 2;
         s3.marks[1] += 3;
         System.out.println("....s1 marks ");
@@ -22,11 +23,12 @@ public class CopyConstructor {
 
 }
 
-class Student {
+class Student1 {
     int[] marks = new int[3];
 
-    Student() {
-// agr dusra contsructor nhi bnate to iski jrurt nhi hoti par hmne define kr diya hai islye bnana pad rha
+    Student1() {
+        // agr dusra contsructor nhi bnate to iski jrurt nhi hoti par hmne define kr
+        // diya hai islye bnana pad rha
     }
 
     // shallow copy constructor
@@ -36,7 +38,7 @@ class Student {
     // this.name = s1.name;
     // this.marks = s1.marks;
     // }
-    Student(Student s1) {
+    Student1(Student1 s1) {
         this.marks = new int[s1.marks.length];
         for (int i = 0; i < s1.marks.length; i++) {
             this.marks[i] = s1.marks[i];

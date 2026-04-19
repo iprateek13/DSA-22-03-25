@@ -1,6 +1,7 @@
 package oops;
 
 public class AbstractionClass {
+    
     public static void main(String[] args) {
         fish fh = new fish();
         fh.bark();

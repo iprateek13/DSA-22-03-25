@@ -2,7 +2,7 @@ package oops;
 
 public class MethodLoading {
     public static void main(String[] args) {
-        Parent child = new Parent();
+        Parent23 child = new Parent23();
 
         System.out.println(child.ageSum(2, 3));
         System.out.println(child.ageSum(2, 3, 4));
@@ -10,7 +10,7 @@ public class MethodLoading {
     }
 }
 
-class Parent {
+class Parent23{
     int ageSum(int a, int b) {
         return a + b;
     }
