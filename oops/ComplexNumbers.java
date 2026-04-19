@@ -3,12 +3,11 @@ package oops;
 public class ComplexNumbers {
     public static void main(String[] args) {
         Complex c1 = new Complex();
-        c1.complex(3, 3);
+        c1.complex(5, 4);
         Complex c2 = new Complex();
-        c2.complex(3, 4);
-
+        c2.complex(3, 3);
         c1.add(c2);
-        c1.dispalay();
+        c1.display();
     }
 
 }
@@ -28,7 +27,7 @@ class Complex {
         this.imag += c.imag;
     }
 
-    void dispalay() {
+    void display() {
         System.out.println("(" + real + "," + imag + "i )");
     }
 
