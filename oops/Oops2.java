@@ -5,16 +5,16 @@ public class Oops2 {
         AccessAnimal ac = new AccessAnimal();
         ac.checkRun();
         ac.run();
-        Animal an = new Animal();
+        MeraAnimal an = new MeraAnimal();
         an.setHuga("hugooo");
         System.out.println(an.getHugs());
-        Animal anc = new AccessAnimal();
+        MeraAnimal anc = new AccessAnimal();
         anc.eat(); // Method Override
         ac.eats();
     }
 }
 
-class Animal {
+class MeraAnimal {
     private String hugs;
 
     void eat() {
@@ -34,7 +34,7 @@ class Animal {
     }
 }
 
-class AccessAnimal extends Animal {
+class AccessAnimal extends MeraAnimal {
     void checkRun() {
         System.out.println("Animal is runnning...........");
     }
