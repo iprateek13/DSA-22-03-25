@@ -2,7 +2,7 @@ package recursion;
 
 import java.util.Scanner;
 
-public class Nto1 {
+public class DecNto1 {
     public static void nto1print(int n) {
         if (n == 0)
             return;

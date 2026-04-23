@@ -2,7 +2,7 @@ package recursion;
 
 import java.util.Scanner;
 
-public class IncreasingOrder {
+public class Inc1toN {
 
     public static void increasingPrint(int n, int i) {
         if (i > n) {
