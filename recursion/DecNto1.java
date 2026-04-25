@@ -4,18 +4,22 @@ import java.util.Scanner;
 
 public class DecNto1 {
     public static void nto1print(int n) {
+        // Base Case
         if (n == 0)
             return;
+        // Work
         System.out.print(n + " ");
+        // Call
         nto1print(n - 1);
     }
 
     public static void nto1pri(int n, int i) {
+        // Base Case
         if (i > n) {
             return;
-        }
-        nto1pri(n, i + 1);
-        System.out.print(i+" ");
+        } // Work
+        nto1pri(n, i + 1); 
+        System.out.print(i + " ");
     }
 
     public static void main(String[] args) {
